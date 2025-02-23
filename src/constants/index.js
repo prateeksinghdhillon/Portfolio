@@ -121,40 +121,47 @@ const experiences = [
     company_name: "Gemini Solutions",
     icon: gemini,
     iconBg: "#383E56",
-    date: "Feb 2022 - Present",
+    date: "April 2024 - Present",
     points: [
-      "Led the front-end development of a React-based Admin Dashboard, designing dynamic and responsive user interfaces for sports performance analytics, significantly improving user engagement.",
-      "Designed and deployed a high-performance backend using Node.js, enabling efficient handling of high-volume data, real-time video streaming, and push notifications for a mobile app, enhancing user experience.",
-      "Architected scalable application structures using AWS services such as Redis, CloudFront, and EC2, achieving 99.9% system uptime and ensuring seamless performance.",
-      "Conducted R&D on live video streaming technologies, integrating an RTMP server with Node.js to enhance streaming efficiency by 25%, optimizing video streaming quality.",
+      "Led the front-end development of a React-based Admin Dashboard for sports performance analytics, enhancing user engagement.",
+      "Designed and deployed a high-performance backend using Node.js for efficient data handling and real-time video streaming.",
+      "Architected scalable applications with AWS services, achieving 99.9% system uptime.",
+      "Integrated an RTMP server with Node.js, improving live video streaming efficiency by 25%.",
+      "Developed a user-friendly front-end UI for the Document Intelligence Product using React, streamlining document workflows.",
+      "Integrated backend services with ML engines and implemented secure API interactions using Firebase Authentication.",
+      "Optimized state management with React Context API, reducing page load times and enhancing responsiveness."
     ],
   },
   {
-    title: "Software Engineer L2",
+    title: "Software Engineer L1",
     company_name: "Gemini Solutions",
     icon: gemini,
     iconBg: "#E6DEDD",
-    date: "Feb 2022 - Present",
+    date: "Aus 2022 - March 2024",
     points: [
-      "Spearheaded the frontend development using Angular for the HRIS Dashboard, enhancing user interfaces and improving the client-side experience, leading to increased user satisfaction.",
-      "Managed backend operations, including API integration and database management, achieving a 30% boost in system efficiency.",
-      "Oversaw the entire project lifecycle, from requirement gathering to deployment, delivering the project on time.",
-      "Developed an automated onboarding system that reduced personnel training time by 20%, streamlining employee training processes.",
+      "Spearheaded front-end development using Angular for the HRIS Dashboard, improving client-side experience and user satisfaction.",
+      "Managed backend operations, including API integration and database management, boosting system efficiency by 30%.",
+      "Oversaw the project lifecycle from requirements gathering to deployment, ensuring timely delivery.",
+      "Developed an automated onboarding system, reducing training time by 20%.",
+      "Led front-end development of a React-based Admin Dashboard for sports performance analytics, enhancing user engagement.",
+      "Designed and deployed a high-performance backend with Node.js for efficient data handling and real-time video streaming.",
+      "Architected scalable applications using AWS services, achieving 99.9% system uptime."
     ],
   },
   {
-    title: "Software Engineer L2",
+    title: "Technical Trainee",
     company_name: "Gemini Solutions",
     icon: gemini,
     iconBg: "#383E56",
-    date: "Feb 2022 - Present",
+    date: "Feb 2022 - July 2022",
     points: [
-      "Designed and developed the front-end UI using React for the Document Intelligence Product, creating dynamic and user-friendly interfaces to enhance document upload and processing workflows.",
-      "Utilized Firebase Authentication for secure API interactions and integrated the backend with ML services, enabling seamless document analysis by passing uploaded files to the ML engine.",
-      "Implemented state management with React Context API, streamlining data flow and reducing page load times to improve performance and responsiveness.",
+      "Assisted in front-end development using Angular for the HRIS Dashboard, contributing to improved user interfaces.",
+      "Supported backend operations, including API integration and database management.",
+      "Participated in the development of an automated onboarding system to streamline employee training processes."
     ],
   },
 ];
+
 
 const testimonials = [
   {
