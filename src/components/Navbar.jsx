@@ -33,23 +33,32 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Prateek &nbsp;
-            <span className='sm:block hidden'> | Portfolio</span>
-          </p>
-        </Link>
-
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        <div className="flex items-center gap-5">
+          <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+          >
+            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+              Prateek &nbsp;
+              <span className="sm:block hidden"> | Portfolio</span>
+            </p>
+          </Link>
+          <a
+            href="https://d2hngvzwp5q49i.cloudfront.net/prateek+singh_resume.pdf"
+            target="_blank"
+            // rel="noopener noreferrer"
+            // className="bg-secondary text-white text-[16px] font-medium px-4 py-2 rounded-lg hover:bg-white hover:text-secondary transition-all duration-200 cursor-pointer z-50"
+          >
+            Resume ⬇
+          </a>
+        </div>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -63,11 +72,11 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
 
@@ -76,7 +85,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

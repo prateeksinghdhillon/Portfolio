@@ -129,7 +129,7 @@ const experiences = [
       "Integrated an RTMP server with Node.js, improving live video streaming efficiency by 25%.",
       "Developed a user-friendly front-end UI for the Document Intelligence Product using React, streamlining document workflows.",
       "Integrated backend services with ML engines and implemented secure API interactions using Firebase Authentication.",
-      "Optimized state management with React Context API, reducing page load times and enhancing responsiveness."
+      "Optimized state management with React Context API, reducing page load times and enhancing responsiveness.",
     ],
   },
   {
@@ -145,7 +145,7 @@ const experiences = [
       "Developed an automated onboarding system, reducing training time by 20%.",
       "Led front-end development of a React-based Admin Dashboard for sports performance analytics, enhancing user engagement.",
       "Designed and deployed a high-performance backend with Node.js for efficient data handling and real-time video streaming.",
-      "Architected scalable applications using AWS services, achieving 99.9% system uptime."
+      "Architected scalable applications using AWS services, achieving 99.9% system uptime.",
     ],
   },
   {
@@ -157,11 +157,10 @@ const experiences = [
     points: [
       "Assisted in front-end development using Angular for the HRIS Dashboard, contributing to improved user interfaces.",
       "Supported backend operations, including API integration and database management.",
-      "Participated in the development of an automated onboarding system to streamline employee training processes."
+      "Participated in the development of an automated onboarding system to streamline employee training processes.",
     ],
   },
 ];
-
 
 const testimonials = [
   {
