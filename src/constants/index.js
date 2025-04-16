@@ -24,6 +24,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  shop,
+  lywire,
 } from "../assets";
 
 export const navLinks = [
@@ -230,7 +232,49 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://foreverbuy.in/",
+    source_code_link: "https://ecommerce-frontend-view.netlify.app/",
+  },
+  {
+    name: "The Style Salad",
+    description:
+      "A full-featured online shopping platform designed for smooth navigation, real-time order tracking, inventory control, and personalized user interactions to drive sales and elevate digital storefront experiences.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shop,
+    source_code_link: "https://www.thestylesalad.in/",
+  },
+  {
+    name: "Lywire",
+    description:
+      "An intuitive and scalable e-commerce solution that streamlines product browsing, secure checkout, user authentication, and order management, delivering a seamless shopping experience across all devices.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lywire,
+    source_code_link: "https://lywire.com/",
   },
   {
     name: "GoalGauge",
