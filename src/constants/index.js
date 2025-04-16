@@ -211,27 +211,27 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/prateeksinghdhillon/DivineGymSite",
   },
-  // {
-  //   name: "BioSecure Web App",
-  //   description:
-  //     "A biometric fingerprint authentication and attendance system using Raspberry Pi and R307 fingerprint sensor, enabling secure door access and real-time attendance tracking.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "sqlite",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "python",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/prateeksinghdhillon/BioSecure_WebApp",
-  // },
+  {
+    name: "E-commerce Website",
+    description:
+      "A modern and scalable E-Commerce platform offering seamless shopping experiences, secure transactions, product management tools, and user-centric features to enhance online retail efficiency and customer satisfaction..",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://foreverbuy.in/",
+  },
   {
     name: "GoalGauge",
     description:
