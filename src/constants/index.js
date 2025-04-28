@@ -214,27 +214,6 @@ const projects = [
     source_code_link: "https://github.com/prateeksinghdhillon/DivineGymSite",
   },
   {
-    name: "E-commerce Website",
-    description:
-      "A modern and scalable E-Commerce platform offering seamless shopping experiences, secure transactions, product management tools, and user-centric features to enhance online retail efficiency and customer satisfaction..",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Vite",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://ecommerce-frontend-view.netlify.app/",
-  },
-  {
     name: "The Style Salad",
     description:
       "A full-featured online shopping platform designed for smooth navigation, real-time order tracking, inventory control, and personalized user interactions to drive sales and elevate digital storefront experiences.",
