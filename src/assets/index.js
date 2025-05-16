@@ -29,6 +29,7 @@ import gemini from "./company/gemini.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import questfall from "./questfall.png";
 import tripguide from "./tripguide.png";
 import shop from "./shop.png"
 import lywire from "./lywire.png"
@@ -62,6 +63,7 @@ export {
   gemini,
   carrent,
   jobit,
+  questfall,
   tripguide,
   shop,
   lywire,
