@@ -194,6 +194,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Questfall",
+    description:
+      "A decentralized questing platform that rewards users with QFT tokens for completing meaningful on-chain tasks, promoting fair token distribution, creative engagement.",
+    tags: [
+      {
+        name: "Web3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: questfall,
+    source_code_link: "https://www.questfall.xyz/",
+  },
+  {
     name: "Divine Fitness Site",
     description:
       "A performance optimization and elite fitness training platform, offering advanced workout programs, expert coaching, and recovery strategies to enhance endurance, strength, and overall peak performance.",
@@ -280,27 +301,6 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/prateeksinghdhillon/GoalGauge",
-  },
-  {
-    name: "Questfall",
-    description:
-      "A decentralized questing platform that rewards users with QFT tokens for completing meaningful on-chain tasks, promoting fair token distribution, creative engagement.",
-    tags: [
-      {
-        name: "Web3",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Solidity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: questfall,
-    source_code_link: "https://www.questfall.xyz/",
   },
 ];
 
